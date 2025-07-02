@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XUDA DOCES</title>
+    <meta name="description"
+        content="Conheça a história e os produtos incríveis da Nome Comércio! Bolos caseiros e muito mais.">
+    <link rel="stylesheet" href="estilos/css.css">
+    <link rel="icon" href="imagens/favicon.png">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="imagens/logo.jpg" alt="">
+                <h1>XUDADOCES</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#nossa-historia">Nossa História</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#formulario">Formulário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="nossa-historia" class="about-section container">
+            <h2>NOSSA HISTÓRIA</h2>
+            A história do Xuda doces se iniciou no ano de 2020,
+            onde o seu criador criou uma doceria voltada para o público adulto,
+            tendo alvo a busca dos sabores que mais agradem as pessoas no dia a dia
+            entregando doces artesanais de alta qualidade com bom preço.
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="imagens/bolo-chocolate-morango.png" alt="Bolo de chocolate decorado em prato branco">
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="products-section container">
+            <h2>PRODUTOS</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="imagens/bolo-prestigio-cacau-Black.png" alt="">
+                    <h3>Bolos</h3>
+                    <p>"Bolos feitos de foma artesanal, disponiveis por Kg, Onde o cliente pode escolher o peso, sabor, recheios e coberturas"</p>
+                    <button id="btn-ver-bolos" class="btn-ver-mais">VER MAIS</button>
+                </div>
+
+
+                <div class="product-card">
+                    <img src="imagens/bolo-pote-brigadeiro.png" alt="">
+                    <h3>Bolos de Pote</h3>
+                    <p>"Bolos disponiveis em varios sabores, pesando 250grs, consulte nossas variedades de sabores autenticos"</p>
+                    <button id="btn-ver-potes" class="btn-ver-mais">VER MAIS</button>
+                </div>
+
+
+                <div class="product-card">
+                    <img src="imagens/brigadeiro01.png" alt="">
+                    <h3>Brigadeiros</h3>
+                    <p>"Nossos Brigadeiros são feitos de forma artesanal, disponiveis no tamanho 25grs e 10grs, consulte nossas variedades de sabores autenticos "</p>
+                    <button id="btn-ver-brigs" class="btn-ver-mais">VER MAIS</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="formulario" class="contact-section container">
+            <h2>FALE CONOSCO</h2>
+            <form action="enviar_email.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" >
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+
+        <div class="rodape">
+
+            <address>
+                <h6>Contatos</h6>
+                <!-- mudar gmail e telefone -->
+                <ul>
+                    <li>+55 (11) 97802-0076</li>
+                    <li><a href="mailto:comercio@mail.com" target="_blank">xudadoces1@gmail.com</a></li>
+                </ul>
+
+            </address>
+
+            <ul class="sociais">
+                <!-- lembrar de alterar o link das redes sociais para o link do perfil certo -->
+                <li><a href="https://www.instagram.com/xudadoces?igsh=MWNxdDAybTByb3JiZg==" target="_blank"><img src="imagens/icon-instagram.png"
+                            alt="Instagram"></a></li>
+
+                        <li><a href="https://www.facebook.com/share/1Agm9TndcS/" target="_blank"><img src="imagens/icon-facebook.png"
+                            alt="Facebook"></a></li>
+
+            </ul>
+
+        </div>
+
+        <small>&copy; 2025 Xuda Doces</small>
+
+    </footer>
+
+    <!-- MUDAR DESCRIÇÕES DOS PRODUTOS -->
+     <!-- BOLOS -->
+    <div id="popup-bolos" class="popup">
+        <div class="conteudo-popup">
+            <div class="popup-header">
+                <span class="btn-fechar">&times;</span>
+                <h2> Bolos</h2>
+            </div>
+            <div class="popup-body">
+                <div class="tipo-produto">
+                    <h3>Bolo de Prestigio</h3>
+                    <img src="imagens/bolo-prestigio-cacau-Black.png" alt="bolo">
+                    <p>Massa: Chocolate <br>
+                        Recheio de Brigadeiro de Chocolate e Beijinho <br>
+                        Cobertura de Chantily, Coco Ralado, Gotas de chocolate e Cacau Black <br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Bolo Nude Ninho com Brigadeiro</h3>
+                    <img src="imagens/bolo-naked-cae.png" alt="bolo">
+                    <p>Massa: Chocolate <br>
+                         Recheio de Brigadeiro de Chocolate e Brigadeiro de Leite ninho <br>
+                        Cobertura de Ganache Meio Amargo, Gotas de chocolate e Cacau em pó <br>                    
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Bolo Mousse de Morago</h3>
+                    <img src="imagens/bolo-chocolate-morango.png" alt="bolo">
+                    <p>Massa: baunilha <br>
+                         Recheio de Mousse de morango e Pedaços de morango <br>
+                        Cobertura de Chantily, Pedaços de Morango Gotas de chocolate e Cacau em pó <br>                    
+                        Alergenicos: CONTEM gluten, ovo, leite
+                        
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Bolo Brigadeiro de Maracuja</h3>
+                    <img src="imagens/bolo-chocolate-acucar.png" alt="bolo">
+                    <p>Massa: baunilha <br>
+                          Recheio de Brigadeiro de Maracuja eBrigadeiro de Chocolate <br>
+                        Cobertura de Ganache Meio Amargo, Raspas de chocolate e Cacau em póó <br>                    
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOLO DE POTE -->
+    <div id="popup-potes" class="popup">
+        <div class="conteudo-popup">
+            <div class="popup-header">
+                <span class="btn-fechar">&times;</span>
+                <h2> BOLO DE POTE</h2>
+            </div>
+            <div class="popup-body">
+                <div class="tipo-produto">
+                    <h3>Amendoim</h3>
+                    <img src="imagens/bolo-pote-nozes.png" alt="Bolo de Pote">
+                    <p>Massa: Chocolate <br>
+                        Recheio de Amendoim, cobertura de amendoim triturado. <br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+                <div class="tipo-produto">
+                    <h3>CHOCOLATE</h3>
+                    <img src="imagens/bolo-pote-brigadeiro.png" alt="Bolo de Pote">
+                    <p>Massa: Chocolate <br>
+                        Recheio de Brigadeiro, com cobertura de confeiros de Chocolate
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--BRIGADEIROS  -->
+    <div id="popup-brigadeiros" class="popup">
+        <div class="conteudo-popup">
+            <div class="popup-header">
+                <span class="btn-fechar">&times;</span>
+                <h2> BRIGADEIRO </h2>
+            </div>
+            <div class="popup-body">
+                <div class="tipo-produto">
+                    <h3>Brigadeiro Artesanal</h3>
+                    <img src="imagens/brigadeiro01.png" alt="BRIGADEIRO">
+                    <p> Brigadeiros de Diversos Sabores de 25grs <br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Brigadeiro Artesanal Festa </h3>
+                    <img src="imagens/brigadeiro02.png" alt="BRIGADEIRO">
+                    <p>Brigadeiros de Diversos Sabores de 10grs <br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Brigadeiros Tradicionais 25grs</h3>
+                    <img src="imagens/brigadeiro03.png" alt="BRIGADEIRO">
+                    <p> Brigadeiros de Diversos Sabores de 25grs <br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+
+                <div class="tipo-produto">
+                    <h3>Brigadeiros Tradicionais Festa </h3>
+                    <img src="imagens/brigadeiro04.png" alt="BRIGADEIRO">
+                    <p> Brigadeiros de Diversos Sabores de 10grs<br>
+                        Alergenicos: CONTEM gluten, ovo, leite
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
