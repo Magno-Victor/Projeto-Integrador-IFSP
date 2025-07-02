@@ -1,126 +1,63 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Xuda Doces</title>
-    <style>
-        /* Estilos básicos para simular a renderização de um README */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
-            margin-top: 30px;
-        }
-        h1 { font-size: 2.5em; }
-        h2 { font-size: 1.8em; }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        pre {
-            background-color: #eee;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-            font-family: "Courier New", Courier, monospace;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <h1>Xuda Doces</h1>
-    <p>Bem-vindo ao repositório do site da Xuda Doces! Este projeto apresenta um site responsivo e informativo para uma doceria artesanal, fundada em 2020, que oferece bolos caseiros, bolos de pote e brigadeiros de alta qualidade e bom preço.</p>
+Xuda Doces 🍰
+Bem-vindo ao repositório do site da Xuda Doces! Este projeto apresenta a presença online de uma doceria artesanal fundada em 2020. Nosso foco é oferecer bolos caseiros, bolos de pote e brigadeiros de alta qualidade a preços justos, com um toque artesanal que busca agradar aos paladares mais exigentes.
 
-    ---
+🎯 Sobre o Projeto
+O site da Xuda Doces foi desenvolvido com os seguintes objetivos:
 
-    <h2>Sobre o Projeto</h2>
-    <p>O site da Xuda Doces tem como objetivo principal:</p>
-    <ul>
-        <li>Apresentar a história da doceria e seus valores.</li>
-        <li>Exibir o catálogo de produtos (bolos, bolos de pote e brigadeiros) com detalhes sobre sabores e alérgenos.</li>
-        <li>Fornecer um formulário de contato para que os clientes possam entrar em contato facilmente.</li>
-        <li>Oferecer uma experiência de navegação agradável e responsiva em diferentes dispositivos.</li>
-    </ul>
+Apresentar a Marca: Compartilhar a história e os valores da doceria com o público.
 
-    ---
+Exibir o Catálogo de Produtos: Detalhar os produtos oferecidos (bolos, bolos de pote, brigadeiros), incluindo informações sobre sabores, recheios, coberturas e alérgenos.
 
-    <h2>Tecnologias Utilizadas</h2>
-    <p>Este projeto foi desenvolvido utilizando as seguintes tecnologias:</p>
-    <ul>
-        <li><strong>HTML5:</strong> Estrutura e conteúdo da página.</li>
-        <li><strong>CSS3:</strong> Estilização e design responsivo.</li>
-        <li><strong>JavaScript:</strong>
-            <ul>
-                <li>Manipulação do DOM para funcionalidades interativas, como pop-ups de detalhes dos produtos.</li>
-                <li>Validação de formulário no lado do cliente.</li>
-            </ul>
-        </li>
-        <li><strong>PHP:</strong>
-            <ul>
-                <li>Processamento do formulário de contato.</li>
-                <li>Envio de e-mails via Resend API.</li>
-            </ul>
-        </li>
-    </ul>
+Facilitar o Contato: Disponibilizar um formulário para que os clientes possam fazer pedidos ou tirar dúvidas.
 
-    ---
+Garantir Acessibilidade: Oferecer uma experiência de navegação intuitiva e responsiva em qualquer dispositivo (desktop, tablet ou celular).
 
-    <h2>Acesso ao Site</h2>
-    <p>O site da Xuda Doces está hospedado gratuitamente no InfinityFree e pode ser acessado através do seguinte link:</p>
-    <p><a href="https://xudadoces.free.nf">https://xudadoces.free.nf</a></p>
+🚀 Tecnologias Utilizadas
+Este projeto foi construído com as seguintes tecnologias principais:
 
-    ---
+HTML5: Para a estruturação semântica do conteúdo da página.
 
-    <h2>Como Usar</h2>
-    <ul>
-        <li>Navegue pelas seções "Nossa História", "Produtos" e "Fale Conosco".</li>
-        <li>Clique nos botões "VER MAIS" na seção de produtos para ver os detalhes dos doces.</li>
-        <li>Preencha o formulário de contato para enviar uma mensagem.</li>
-    </ul>
+CSS3: Para a estilização visual e a adaptação do layout a diferentes tamanhos de tela (design responsivo).
 
-    ---
+JavaScript: Para interações dinâmicas, como a exibição de pop-ups detalhados dos produtos e a validação básica do formulário de contato no lado do cliente.
 
-    <h2>Estrutura do Projeto</h2>
-    <pre><code>.
-├── imagens/                # Imagens do site (logo, produtos, ícones sociais)
-├── estilos/                # Arquivos CSS
-│   └── css.css
-├── vendor/                 # Dependências do Composer (gerado automaticamente para PHP)
-├── composer.json           # Arquivo de configuração do Composer
-├── composer.lock           # Arquivo de bloqueio do Composer
-├── enviar_email.php        # Script PHP para processamento do formulário de contato
-├── script.js               # Lógica principal do JavaScript e validação de formulário
-├── popup.js                # Lógica para os pop-ups de produtos
-└── index.html              # Página principal do site
-</code></pre>
+PHP: Para o processamento do formulário de contato no servidor e o envio de e-mails, utilizando a biblioteca Resend API para comunicação externa.
 
-    ---
+🌐 Acesso ao Site
+O site da Xuda Doces está hospedado gratuitamente no InfinityFree e pode ser acessado diretamente pelo link abaixo:
 
-    <h2>Desenvolvedores</h2>
-    <p>Este projeto foi desenvolvido por:</p>
-    <ul>
-        <li>Victor Magno de Freitas</li>
-        <li>Jonatas Bandeira Alves</li>
-        <li>Thalita Victoria Lopes Meira</li>
-        <li>Mariana Nogueira Neves</li>
-    </ul>
+https://xudadoces.free.nf
 
-    
-</body>
-</html>
+💡 Como Usar o Site
+Navegar pelo site é simples e intuitivo:
+
+Explore as seções "Nossa História", "Produtos" e "Fale Conosco" através do menu superior.
+
+Na seção "Produtos", clique nos botões "VER MAIS" para visualizar informações detalhadas sobre os bolos, bolos de pote e brigadeiros.
+
+Utilize o formulário na seção "Fale Conosco" para enviar mensagens diretamente para a doceria.
+
+📂 Estrutura do Projeto
+A organização dos arquivos e pastas do projeto é a seguinte:
+
+.
+├── imagens/                # Contém todas as imagens utilizadas no site (logotipo, fotos de produtos, ícones).
+├── estilos/                # Armazena os arquivos CSS do projeto.
+│   └── css.css             # O arquivo CSS principal que define o estilo visual do site.
+├── vendor/                 # Diretório gerado e gerenciado pelo Composer, contendo as dependências PHP.
+├── composer.json           # Arquivo de configuração do Composer que lista as dependências do projeto.
+├── composer.lock           # Garante a instalação das mesmas versões das dependências em diferentes ambientes.
+├── enviar_email.php        # Script PHP responsável por processar o formulário de contato e enviar e-mails.
+├── script.js               # Contém a lógica JavaScript geral do site e a validação do formulário.
+├── popup.js                # Lógica JavaScript específica para o funcionamento dos pop-ups de produtos.
+└── index.html              # A página HTML principal do site.
+👨‍💻 Desenvolvedores
+Este projeto foi desenvolvido em colaboração por:
+
+Victor Magno de Freitas
+
+Jonatas Bandeira Alves
+
+Thalita Victoria Lopes Meira
+
+Mariana Nogueira Neves
